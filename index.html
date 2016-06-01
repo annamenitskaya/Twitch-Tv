@@ -1,0 +1,47 @@
+<head>
+
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+  <img src="http://ivacontent.blob.core.windows.net/ivacomwp/wp-content/uploads/2014/09/Twitch_Logo.png">
+
+  <div class="tabs">
+    <!-- Radio button and lable for #tab-content1 -->
+    <input type="radio" name="tabs" id="tab1" checked>
+    <label for="tab1">
+       <span>All</span>
+    </label>
+    <!-- Radio button and lable for #tab-content2 -->
+    <input type="radio" name="tabs" id="tab2">
+    <label for="tab2">
+        <span>Online</span>
+    </label>
+    <!-- Radio button and lable for #tab-content3 -->
+    <input type="radio" name="tabs" id="tab3">
+    <label for="tab3">
+        <span>Offline</span>
+    </label>
+    <div id="tab-content1" class="tab-content">
+      <h3></h3>
+      <p id="player">
+      </p>
+    </div>
+    <div id="tab-content2" class="tab-content">
+      <h3><!-- Tab title here --></h3>
+      <p id="online">
+        <!-- Tab content here -->
+      </p>
+    </div>
+    <!-- #tab-content2 -->
+    <div id="tab-content3" class="tab-content">
+      <h3><!-- Tab title here --></h3>
+      <p id="offline">
+        <!-- Tab content here -->
+      </p>
+    </div>
+    <!-- #tab-content3 -->
+  </div>
+	<script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>
+</body>
